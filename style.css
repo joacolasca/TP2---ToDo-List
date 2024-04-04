@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(imgFondo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 100px;
+}
+
+#IngresarToDo{
+    padding: 20px 30px;
+    border: none;
+    background-color: grey;
+    color: azure;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#botonAgregar, #botonRapida{
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.controlador{
+    display: flex;
+    gap: 40px;
+}
+
+.borrar{
+    background-color: rgb(153, 7, 7);
+    color: azure;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    background-color: grey;
+    color: azure;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+#mostrarMasRapida {
+    color: azure;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    cursor: pointer; 
+}
